@@ -8,7 +8,7 @@ btnChangeBackground.innerHTML = "Click Me!";
 document.body.appendChild(btnChangeBackground);
 
 document.body.style.backgroundColor = 'pink';
-btnChangeBackground.addEventListener('click', changeBackground);
+btnChangeBackground.addEventListener('click',changeBackground);
 
 function changeBackground(){
   const colorIndex = parseInt(Math.random()*colors.length)
